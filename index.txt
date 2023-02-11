@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>
+registration page
+</title>
+</head>
+<body bgcolor="pink">
+<center>ANNAMACHARYA INSTITUTE OF TECHNOLOGY AND SCIENCE RAJAMPET</center>
+<center>(Autonomous)</center>
+<br>
+<br>
+<from>
+<label>Firstname</label>
+<inputtype="text"name="firstname"size="15"/><br><br>
+<label>Lastname:</label>
+<inputtyupe="text"name="middlename"size="15"/><br><br>             
+<label>Lastname:</label>
+<inputtype="text"name="lastname"size="15"/><br><br>
+<label>
+course:
+</label>
+<select>
+<optionvalue="course">course</option>
+<optionvalue="ML">ML</option>
+<optionvalue="AI"></option>
+<optionvalue="B.Tech</option>
+<optionvalue="MBA">MBA</option>
+<optionvalue="MCA">MCA</opton>
+<optionvalue="M.Tech">M.Tech</option>
+</select>
+<br>
+<br>
+<label>
+Gender:
+</label><br>
+<inputtype="radio"name="male"/>male<br>
+<inputtype="radio"name="female"/>female<br>
+<inputtype="radio"name="other"/>other
+<br>
+<br>
+<label>
+phone:
+</label>
+<inputtype="text"name="countrycode"value="+91"size="2"/>
+<inputtype="text"name="phone"size="10"/><br><br>
+Address
+<br>
+<textarea cols="80"rows="5"value="address">
+</textarea>
+<br><br>
+Email:
+<inputtype="password"id="repass"name="repass"><br><br>
+<inputtype="button"value="submit"/>
+</from>
+</body>
+</html>
